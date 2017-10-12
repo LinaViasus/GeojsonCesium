@@ -1,7 +1,7 @@
-<!DOCTYPE html>
 <html>
 <head>
 <!-- Importar biblioteca Cesium -->
+<meta charset="UTF-8">
 <script src="Build/Cesium/Cesium.js"></script>
 <style>
 @import url("Build/Cesium/Widgets/widgets.css");
@@ -23,7 +23,7 @@ var viewer = new Cesium.Viewer('cesiumContainer',{
 var entity = viewer.entities.add({
 	//Cartesian3 representa un punto en el espacio euclidiano
 	//Cesium.Cartesian3.fromDegrees(longitude, latitude, height, ellipsoid, result)
-	position : Cesium.Cartesian3.fromDegrees(-74,4,10),
+	position : Cesium.Cartesian3.fromDegrees(-74.175806,4.628222,0),
    model : {
    	uri : 'cubo.gltf',
         scale:1
